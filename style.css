@@ -6,6 +6,8 @@
  }
  
  .CTA {
+    max-width: 400px; /* Largura máxima */
+    width: 100%; /* Largura total do contêiner */
      text-align: center;
      border-radius: 8px;
      background: rgba(0, 0, 0, 0.80);
@@ -22,7 +24,9 @@
  .CTA:hover {
      background: rgba(0, 0, 0, 1); /* Efeito de hover */
  }
- 
+
+
+
  a {
      display: block; /* Torna o link um bloco para melhor espaçamento */
      margin: auto;
