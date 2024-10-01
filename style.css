@@ -12,7 +12,7 @@
      border: none;
      padding: 10px 20px;
      cursor: pointer;
-     margin: auto;
+     margin: 8px;
      font-size: 16px; /* Tamanho da fonte */
      transition: background 0.3s;
      width: 400px;
