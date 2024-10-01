@@ -5,7 +5,7 @@
      font-family: 'Satoshi-Regular', sans-serif; /* Adiciona a fonte padrão */
  }
  
- .button {
+ .CTA {
      border-radius: 8px;
      background: rgba(0, 0, 0, 0.80);
      color: white; /* Para o texto ficar visível */
@@ -18,7 +18,7 @@
      width: 400px;
  }
  
- .button:hover {
+ .CTA:hover {
      background: rgba(0, 0, 0, 1); /* Efeito de hover */
  }
  
