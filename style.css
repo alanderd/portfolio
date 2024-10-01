@@ -1,40 +1,37 @@
 .content {
-     text-align: center;
-     margin: 20px;
-     padding: 20px;
-     font-family: 'Satoshi-Regular', sans-serif; /* Adiciona a fonte padrão */
- }
- 
- .CTA {
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+    font-family: 'Satoshi-Regular', sans-serif; /* Adiciona a fonte padrão */
+}
+
+.CTA {
     max-width: 400px; /* Largura máxima */
     width: 100%; /* Largura total do contêiner */
-     text-align: center;
-     border-radius: 8px;
-     background: rgba(0, 0, 0, 0.80);
-     color: white; /* Para o texto ficar visível */
-     border: none;
-     padding: 10px 20px;
-     cursor: pointer;
-     margin: 8px;
-     font-size: 16px; /* Tamanho da fonte */
-     transition: background 0.3s;
-     width: 400px;
- }
- 
- .CTA:hover {
-     background: rgba(0, 0, 0, 1); /* Efeito de hover */
- }
+    text-align: center;
+    border-radius: 8px;
+    background: rgba(0, 0, 0, 0.80);
+    color: white; /* Para o texto ficar visível */
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin: 8px auto; /* Centraliza o botão horizontalmente */
+    font-size: 16px; /* Tamanho da fonte */
+    transition: background 0.3s;
+}
 
+.CTA:hover {
+    background: rgba(0, 0, 0, 1); /* Efeito de hover */
+}
 
+a {
+    display: block; /* Torna o link um bloco para melhor espaçamento */
+    margin: 10px auto; /* Centraliza os links */
+    text-decoration: none; /* Remove sublinhado */
+    color: black; /* Cor do texto do link */
+    max-width: 400px; /* Para manter a mesma largura máxima */
+}
 
- a {
-     display: block; /* Torna o link um bloco para melhor espaçamento */
-     margin: auto;
-     text-decoration: none; /* Remove sublinhado */
-     color: black; /* Cor do texto do link */   
- }
- 
- a:hover {
-     text-decoration: underline; /* Efeito ao passar o mouse */
- }
- 
+a:hover {
+    text-decoration: underline; /* Efeito ao passar o mouse */
+}
