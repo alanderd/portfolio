@@ -1,0 +1,34 @@
+.content {
+     text-align: center;
+     margin: 20px;
+     padding: 20px;
+     font-family: 'Satoshi-Regular', sans-serif; /* Adiciona a fonte padrão */
+ }
+ 
+ .button {
+     border-radius: 8px;
+     background: rgba(0, 0, 0, 0.80);
+     color: white; /* Para o texto ficar visível */
+     border: none;
+     padding: 10px 20px;
+     cursor: pointer;
+     margin: 10px 0;
+     font-size: 16px; /* Tamanho da fonte */
+     transition: background 0.3s;
+ }
+ 
+ .button:hover {
+     background: rgba(0, 0, 0, 1); /* Efeito de hover */
+ }
+ 
+ a {
+     display: block; /* Torna o link um bloco para melhor espaçamento */
+     margin: 5px 0;
+     text-decoration: none; /* Remove sublinhado */
+     color: black; /* Cor do texto do link */
+ }
+ 
+ a:hover {
+     text-decoration: underline; /* Efeito ao passar o mouse */
+ }
+ 
