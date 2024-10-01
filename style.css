@@ -12,9 +12,10 @@
      border: none;
      padding: 10px 20px;
      cursor: pointer;
-     margin: 10px 0;
+     margin: auto;
      font-size: 16px; /* Tamanho da fonte */
      transition: background 0.3s;
+     width: 400px;
  }
  
  .button:hover {
@@ -23,9 +24,9 @@
  
  a {
      display: block; /* Torna o link um bloco para melhor espaçamento */
-     margin: 5px 0;
+     margin: auto;
      text-decoration: none; /* Remove sublinhado */
-     color: black; /* Cor do texto do link */
+     color: black; /* Cor do texto do link */   
  }
  
  a:hover {
