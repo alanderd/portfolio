@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./style.css">
+    <title>Alander - Portfolio</title>
+</head>
+
+<header>
+    <div class="off-screen-menu">
+         <ul>
+            <li>Home</li>
+            <li><a href="./Designer.html">Designer</a></li>
+            <li><a href="./Framework.html">Framework</a></li>
+            <li><a href="./Produtos.html">Produtos</a></li>
+            <li><a href="./Estudos.html">Estudos</a></li>
+            </ul>
+    </div>
+    <nav>
+        <div class="ham-menu">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+       
+    </div>
+    </nav>
+</header>
+
+<body>
+
+    <h1>Alander de Ávila</h1>
+    <h5>Designer de Produto & Engenheiro de Software em desenvolvimento<br>com background em tradução e ensino de idiomas.</h5>
+    
+<script src="./script.js"></script>
+</body>
+
+</html>
